@@ -1,0 +1,30 @@
+.main-lists {
+    list-style-type: none;
+    margin-left: 40px;
+    font-size: 36pt;
+}
+
+#worlds-container {
+    background-color: skyblue;
+    height: 100%
+}
+
+#snapshots-container {
+    background-color: lawngreen;
+    height: 100%;
+    text-align: center;
+}
+
+#snapshots-list-container {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.world-snapshot-item {
+    font-size: 24pt;
+}
+
+.new-snapshot-btn {
+    font-size: 16pt;
+}
