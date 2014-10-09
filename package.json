@@ -2,14 +2,15 @@
   "name": "MCWorldBackup",
   "main": "index.html",
   "window": {
-    "title": "App Name",
+    "title": "Minecraft World Snapshot",
     "frame": true,
     "toolbar": true,
-    "height": 600,
-    "width": 1000,
+    "height": 650,
+    "width": 1100,
     "position": "center"
   },
   "dependencies": {
-    "fs-extra": "^0.12.0"
+    "fs-extra": "^0.12.0",
+    "moment": "^2.8.3"
   }
 }

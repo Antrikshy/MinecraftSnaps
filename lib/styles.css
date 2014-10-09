@@ -1,3 +1,34 @@
+.titlebar {
+    height: 22px;
+    text-align: center;
+}
+
+.titlebar h1 {
+    margin: 3px 0;
+    font-size: 12pt;
+}
+
+.titlebar-btn {
+    float: right;
+    margin: 3px;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+}
+
+.titlebar-close-btn {
+    margin-right: 5px;
+    background-color: red;
+}
+
+.titlebar-minimize-btn {
+    background-color: yellow;
+}
+
+.titlebar-fullscreen-btn {
+    background-color: lawngreen;
+}
+
 .main-lists {
     list-style-type: none;
     margin-left: 40px;
@@ -5,26 +36,60 @@
 }
 
 #worlds-container {
-    background-color: skyblue;
-    height: 100%
+    background-color: #bdc3c7;
+    padding-right: 0;
+    height: 100%;
+}
+
+.world-item {
+    background-color: #e74c3c;
+    border-right: 10px solid #c0392b;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.world-item-deleted {
+    opacity: 0.6;
 }
 
 #snapshots-container {
-    background-color: lawngreen;
+    background-color: #ecf0f1;
+    padding-top: 10px;
     height: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 #snapshots-list-container {
+    margin-bottom: 10px;
     float: left;
-    width: 100%;
     text-align: left;
 }
 
 .world-snapshot-item {
-    font-size: 24pt;
+    font-size: 20pt;
+}
+
+.snapshot-action-btns {
+    padding-left: 10px;
+    margin-bottom: 4px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #2d89ef;
+}
+
+.btn-danger {
+    background-color: #ee1111;
 }
 
 .new-snapshot-btn {
     font-size: 16pt;
+}
+
+.restore-snapshot-btn {
+    margin-left: 10px;
 }
