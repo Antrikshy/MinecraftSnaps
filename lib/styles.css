@@ -55,7 +55,8 @@
     background-color: #e74c3c;
     border-right: 10px solid #c0392b;
     margin-bottom: 10px;
-    padding-left: 10px;
+    padding: 10px 5px;
+    line-height: 105%;
     color: #fff;
     font-weight: 200;
     transition: 0.1s;
