@@ -11,6 +11,21 @@
     margin-top: 10px;
 }
 
+.about-app-btn {
+    float: right;
+    padding: 10px 5px;
+    padding-bottom: 8px;
+    margin-right: 5px;
+    color: #fff;
+    background-color: #e74c3c;
+    transition: 0.1s;
+}
+
+.about-app-btn:hover {
+    opacity: 0.80;
+    transition: 0.1s;
+}
+
 .titlebar-btn {
     float: right;
     margin: 3px;
@@ -60,6 +75,10 @@
     color: #fff;
     font-weight: 200;
     transition: 0.1s;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .world-item:hover {

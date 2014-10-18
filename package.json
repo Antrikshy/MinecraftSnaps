@@ -1,13 +1,17 @@
 {
-  "name": "MCWorldBackup",
+  "name": "Minecraft Snaps",
   "main": "index.html",
+  "version": "1.0.0",
   "window": {
-    "title": "Minecraft World Snapshot",
-    "frame": true,
+    "title": "Minecraft Snaps",
+    "frame": false,
     "toolbar": true,
     "height": 650,
     "width": 1100,
-    "position": "center"
+    "min_width": 1050,
+    "min_height": 650,
+    "position": "center",
+    "icon": "./lib/Media/app-icon.icns"
   },
   "dependencies": {
     "fs-extra": "^0.12.0",
