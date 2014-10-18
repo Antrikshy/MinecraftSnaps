@@ -1,5 +1,6 @@
 fs-extra: Copyright (c) 2011-2014 JP Richardson
 Bootstrap: Copyright (c) 2011-2014 Twitter, Inc
+Moment.js: Copyright (c) 2011-2014 Tim Wood, Iskren Chernev, Moment.js contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
