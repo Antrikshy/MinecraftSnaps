@@ -17,21 +17,22 @@
     <div class="titlebar-btn titlebar-minimize-btn"></div>
     <div class="titlebar-btn titlebar-fullscreen-btn"></div>
     <a href="#"><div class="about-app-btn" data-toggle="modal" data-target="#about-app-modal"><span class="glyphicon glyphicon-info-sign"></span></div></a>
-  </div>
+  </div><!-- titlebar -->
   <div class="modal" id="about-app-modal">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h4 class="modal-title">About Minecraft Snaps</h4>
-        </div>
+        </div><!-- modal-header -->
         <div class="modal-body">
           <p>Minecraft Snaps lets you backup snapshots of your Minecraft worlds so your can revert back to previous versions in case you blow something up.</p>
           <p>It stores backups of your worlds in its own app data folder completely separate from the game's data.  This way, you can restore worlds even if you run into issues with your Minecraft installation.</p>
+          <p>Minecraft Snaps works by simply copying your world folders to a backup location.</p>
           <div class="alert alert-danger" role="alert"><b>Note:</b> Only create new snapshots after saving and closing your map in the game. Also, do not restore snapshots with the map open, or the game will overwrite your restored snapshot when you save.</div>
-        </div>
+        </div><!-- modal-body -->
         <div class="modal-footer">
           <p>Minecraft Snaps was created by Antriksh Yadav. Contact him <a class="external-link" href="http://twitter.com/Antrikshy">@Antrikshy</a> with any comments, questions or suggestions. This app is open-source. If you know Node.js or just plain old web design, you can contribute on <a class="external-link" href="http://github.com/Antrikshy/MinecraftSnaps">GitHub</a>.</p>
-        </div>
+        </div><!-- modal-footer -->
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -44,6 +45,7 @@
         </section><!-- list container -->
       </div><!-- left pane -->
       <div class="col-sm-7" id="snapshots-container">
+        <div class="alert alert-danger" id="no-minecraft-found" role="alert"><b>Error:</b> A Minecraft worlds folder was not found in the regular location. Do you have Minecraft installed?</div>
         <section class="main-lists" id="snapshots-list-container">
           <ul class="listing">
           </ul>
