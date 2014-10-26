@@ -1,7 +1,7 @@
 .titlebar {
     height: 15%;
     padding: 0 5px;
-    background-color: #36175e;
+    background-color: #471746;
 }
 
 .main-logo {
@@ -60,7 +60,7 @@
 }
 
 #worlds-container {
-    background-image: linear-gradient(#36175e, #542494);
+    background-image: linear-gradient(#471746, #3e1752);
     padding-right: 0;
     padding-top: 3%;
     height: 85%;
@@ -149,6 +149,10 @@ a:hover {
 .new-snapshot-btn {
     font-size: 16pt;
 }
+
+/*.snapshot-desc {
+    border-radius: 0;
+}*/
 
 .restore-snapshot-btn {
     margin-left: 10px;
